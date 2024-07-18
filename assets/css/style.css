@@ -1,8 +1,15 @@
-nav div a{
+nav div a {
+    color: white !important;
+} 
+
+
+h4{
     color: white;
+
 }
-
-
+body{
+    background-color: black;
+}
 img{
     width: 2rem;
 }
