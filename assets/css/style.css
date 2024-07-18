@@ -1,8 +1,11 @@
-nav div a img{
-    width: 2rem;
-
+nav div a{
+    color: white;
 }
 
+
+img{
+    width: 2rem;
+}
 .c-item{
 height: 480px;
 }
