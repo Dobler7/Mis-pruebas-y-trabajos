@@ -3,21 +3,35 @@ nav div a {
 } 
 
 
-h4{
+h4 h5{
     color: white;
 
 }
 body{
     background-color: black;
+    color:white
 }
 img{
     width: 2rem;
 }
 .c-item{
-height: 480px;
+height: 45rem;
 }
 
 .c-img{
 height: 100%;
 object-fit: cover;
+}
+
+section{
+    background-color: #77ccdd;
+    color:white !important
+}
+
+i{
+    font-size:2rem;
+}
+
+.fondoCard{
+    background-color: #77ccdd; 
 }
