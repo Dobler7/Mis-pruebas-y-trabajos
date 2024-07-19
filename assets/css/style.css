@@ -12,7 +12,7 @@ body{
     color:white
 }
 img{
-    width: 2rem;
+    width: 3rem;
 }
 .c-item{
 height: 45rem;
@@ -34,4 +34,5 @@ i{
 
 .fondoCard{
     background-color: #77ccdd; 
+    color: white;
 }
