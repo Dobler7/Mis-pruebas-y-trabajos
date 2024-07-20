@@ -1,12 +1,4 @@
-nav div a {
-    color: white !important;
-} 
 
-
-h4 h5{
-    color: white;
-
-}
 body{
     background-color: black;
     color:white
@@ -25,7 +17,6 @@ object-fit: cover;
 
 section{
     background-color: #77ccdd;
-    color:white !important
 }
 
 i{
