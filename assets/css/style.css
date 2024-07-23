@@ -1,29 +1,51 @@
-
-body{
+body {
     background-color: black;
-    color:white
+    color: white
 }
-img{
+
+img {
     width: 3rem;
-}
-.c-item{
-height: 45rem;
+
 }
 
-.c-img{
-height: 100%;
-object-fit: cover;
+.c-item {
+    height: 45rem;
 }
 
-section{
+.c-img {
+    height: 100%;
+    object-fit: cover;
+}
+
+section {
     background-color: #77ccdd;
 }
 
-i{
-    font-size:2rem;
+
+i {
+    font-size: 2rem;
+    background-color: #77ccdd;
+    
+
 }
 
-.fondoCard{
-    background-color: #77ccdd; 
+.fondoCard {
+    background-color: #77ccdd;
     color: white;
+}
+
+.fondoIcono {
+    background-color: #77ccdd;
+}
+
+p{
+    font-size: 2rem;
+
+}
+
+.margenIzq{
+    margin-left: 3rem;
+}
+.margenDer{
+    margin-right: 4rem;
 }

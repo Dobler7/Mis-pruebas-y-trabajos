@@ -58,40 +58,62 @@
     </div>
 
 
-    <!-- texto 3 columnas -->
+    <!-- texto 3 columnas ojo con el icono y el texto los 2 deben llevar div para manipularlo con class-->
     <article>
         <h2 class="text-center my-5">¿QUIENES SOMOS?</h2>
         <div class="container">
             <div class="row">
-                <div class="col-4 container text-left">
-                    <i class="fa-solid fa-plane"></i>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem reiciendis inventore
-                        aliquam ratione, beatae necessitatibus in adipisci dolores iure unde, accusamus rem repellendus
-                        labore pariatur! Officiis, possimus porro earum alias obcaecati autem quo, eius harum quos
-                        voluptates doloribus quam provident corporis consequuntur magnam accusamus eaque fugit magni
-                        debitis hic labore minima? Error iste fugiat minima voluptatem asperiores quod minus culpa.</p>
+                <div class="col-4 container">
+                    <div class="text-center fondoCard">
+                        <i class="fa-solid fa-plane"></i>
+                    </div>
+                    <div>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem reiciendis inventore
+                            aliquam ratione, beatae necessitatibus in adipisci dolores iure unde, accusamus rem
+                            repellendus
+                            labore pariatur! Officiis, possimus porro earum alias obcaecati autem quo, eius harum quos
+                            voluptates doloribus quam provident corporis consequuntur magnam accusamus eaque fugit magni
+                            debitis hic labore minima? Error iste fugiat minima voluptatem asperiores quod minus culpa.
+                        </p>
+                    </div>
+                </div>
+
+
+                <div class="col-4 container">
+                    <div>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam expedita libero molestiae
+                            praesentium, tempora rerum enim alias! Enim, cumque. Et iusto illum nihil error? Velit illo
+                            in
+                            dolore voluptatem repudiandae provident odio culpa, consectetur aut, necessitatibus earum
+                            voluptates doloribus eligendi minima nobis explicabo blanditiis. Repellendus officiis labore
+                            accusamus dolorum tempore vel iure repudiandae eos aut provident, cupiditate, debitis et non
+                            eius molestias odio inventore corrupti quae soluta possimus odit nobis? Ullam modi, quam
+                            iure
+                            unde laudantium et ab rem fugit.</p>
+                    </div>
+                    <div class="text-center fondoCard">
+                        <i class="fa-solid fa-mountain"></i>
+                    </div>
+
                 </div>
 
                 <div class="col-4 container">
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam expedita libero molestiae
-                        praesentium, tempora rerum enim alias! Enim, cumque. Et iusto illum nihil error? Velit illo in
-                        dolore voluptatem repudiandae provident odio culpa, consectetur aut, necessitatibus earum
-                        voluptates doloribus eligendi minima nobis explicabo blanditiis. Repellendus officiis labore
-                        accusamus dolorum tempore vel iure repudiandae eos aut provident, cupiditate, debitis et non
-                        eius molestias odio inventore corrupti quae soluta possimus odit nobis? Ullam modi, quam iure
-                        unde laudantium et ab rem fugit.</p>
-                    <i class="fa-solid fa-mountain"></i>
-                </div>
+                    <div class="text-center fondoCard">
+                        <i class="fa-solid fa-route"></i>
+                    </div>
+                    <div>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatibus, iure mollitia? Hic
+                            exercitationem voluptatem tempore distinctio excepturi sed tenetur fugiat voluptas
+                            perspiciatis
+                            nemo minima repellat sapiente suscipit praesentium a asperiores nobis ratione ipsum nulla
+                            tempora quas esse deserunt, quaerat possimus. Reiciendis iure, non incidunt quidem dolore
+                            velit
+                            nisi unde soluta eius, aspernatur fugit ab iste consectetur quia beatae nam inventore!
+                            Officiis
+                            commodi facere, nam voluptas debitis exercitationem incidunt sit aspernatur impedit quia
+                            tempora
+                    </div>
 
-                <div class="col-4 container">
-                    <i class="fa-solid fa-route"></i>
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatibus, iure mollitia? Hic
-                        exercitationem voluptatem tempore distinctio excepturi sed tenetur fugiat voluptas perspiciatis
-                        nemo minima repellat sapiente suscipit praesentium a asperiores nobis ratione ipsum nulla
-                        tempora quas esse deserunt, quaerat possimus. Reiciendis iure, non incidunt quidem dolore velit
-                        nisi unde soluta eius, aspernatur fugit ab iste consectetur quia beatae nam inventore! Officiis
-                        commodi facere, nam voluptas debitis exercitationem incidunt sit aspernatur impedit quia tempora
-                        libero cupiditate dolores architecto laboriosam ex sunt.</p>
                 </div>
             </div>
         </div>
@@ -118,7 +140,7 @@
             </div>
 
             <div class="col-3">
-                <div class="card fondoCard" style="width: 18rem;">
+                <div class="card text-center fondoCard" style="width: 18rem;">
                     <img src="./assets/img/card1.jpg" class="card-img-top" alt="...">
                     <div class="card-body">
                         <h5 class="card-title">Card title</h5>
@@ -151,7 +173,7 @@
 
             <div class="col-3">
                 <div class="card fondoCard" style="width: 18rem;">
-                    <img src="./assets/img/card1.jpg" class="card-img-top" alt="...">
+                    <img src="./assets/img/card1.jpg" class="card-img-top FondoIcono" alt="...">
                     <div class="card-body">
                         <h5 class="card-title">Card title</h5>
                         <p class="card-text">Some quick example text to build on the card title and make up the bulk of
@@ -190,21 +212,20 @@
     </article>
 
     <!-- footer -->
-    <section class="mx-auto py-3">
-
-        <div class="d-inline-block mx-5">
-            <h3>VIAJES CHILE</h3>
+    <footer class="fondoCard mt-2 py-3">
+        <div class="row">
+            <div class="col-6">
+                <p>VIAJES CHILE</p>
+            </div>
+            <div class="col-6 ms-auto margenDer" style="width: 12rem;">
+                <i class="fa-brands fa-square-github"></i>
+                <i class="fa-brands fa-linkedin"></i>
+                <i class="fa-brands fa-square-twitter"></i>
+                <i class="fa-brands fa-square-facebook"></i>
+            </div>
         </div>
 
-        <div class="d-inline-block">
-            <i class="fa-brands fa-square-github"></i>
-            <i class="fa-brands fa-linkedin"></i>
-            <i class="fa-brands fa-square-twitter"></i>
-            <i class="fa-brands fa-square-facebook"></i>
-
-
-        </div>
-    </section>
+    </footer>
 
     <script src="https://kit.fontawesome.com/e0539ca340.js" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
